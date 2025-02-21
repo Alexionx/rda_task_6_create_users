@@ -2,11 +2,11 @@
 ​​
 CREATE USER 'webappuser'@'%' IDENTIFIED BY 'P@ssw0rd';
 
-​​GRANT INSERT, UPDATE, DELETE, SELECT ON database.* TO 'webappuser'@'%';
+​​GRANT INSERT, UPDATE, DELETE, SELECT ON ShopDB.* TO 'webappuser'@'%';
 
 CREATE USER 'deploymentuser'@'%' IDENTIFIED BY 'P@ssw0rd';
 
-GRANT ALL ON database.* TO 'deploymentuser'@'%';
+GRANT ALL ON ShopDB.* TO 'deploymentuser'@'%';
 
 
 
